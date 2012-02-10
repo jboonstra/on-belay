@@ -1,0 +1,20 @@
+form.on-belay-assigner {
+    float: right;
+    margin-left: 10px;
+}
+form.on-belay-assigner div p label {
+    font-size: 12px;
+}
+form.on-belay-assigner input[type="submit"] {
+    font-size: 12px !important;
+}
+form.on-belay-assigner.busy select,
+form.on-belay-assigner.busy p label,
+form.on-belay-assigner.busy input[type="submit"] {
+    display: none;
+}
+form.on-belay-assigner.busy p.submit {
+    width: 60px;
+    height: 30px;
+    background: url(/images/dots-white.gif) no-repeat right center;
+}

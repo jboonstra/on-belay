@@ -5,6 +5,7 @@
     "content_scripts": [
         {
             "matches": ["https://*.basecamphq.com/*"],
+            "css": ["on-belay.css"],
             "js": ["jquery.min.js", "extension.js"]
         }
     ]
