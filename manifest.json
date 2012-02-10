@@ -1,7 +1,7 @@
 {
-    "name": "AG Basecamp",
+    "name": "On Belay",
     "version": "1.0",
-    "description": "Basecamp Customizations",
+    "description": "Usability enhancements for Basecamp.",
     "content_scripts": [
         {
             "matches": ["https://*.basecamphq.com/*"],
