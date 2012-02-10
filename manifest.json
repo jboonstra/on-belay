@@ -1,0 +1,11 @@
+{
+    "name": "AG Basecamp",
+    "version": "1.0",
+    "description": "Basecamp Customizations",
+    "content_scripts": [
+        {
+            "matches": ["https://*.basecamphq.com/*"],
+            "js": ["jquery.min.js", "extension.js"]
+        }
+    ]
+}
