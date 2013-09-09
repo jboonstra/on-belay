@@ -1,6 +1,6 @@
 {
     "name": "On Belay",
-    "version": "1.0",
+    "version": "1.1",
     "description": "Usability enhancements for Basecamp.",
     "content_scripts": [
         {
@@ -8,5 +8,6 @@
             "css": ["on-belay.css"],
             "js": ["jquery.min.js", "extension.js"]
         }
-    ]
+    ],
+    "manifest_version": 2
 }
